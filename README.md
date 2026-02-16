@@ -26,3 +26,6 @@ Available for only one declaration at a time. Serves as a placeholder for define
 * ``throw/catch`` is used to not return ``it`` when not found because it can't be revalued
 
 ### EX01
+
+* ``span(unsigned int N)`` as constructor
+* ``addNumber(), shortestSpan(), longestSpan()``
