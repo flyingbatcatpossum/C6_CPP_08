@@ -6,7 +6,7 @@
 /*   By: kleung-t <kleung-t@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/13 17:14:06 by kleung-t          #+#    #+#             */
-/*   Updated: 2026/02/13 18:41:55 by kleung-t         ###   ########.fr       */
+/*   Updated: 2026/02/16 16:21:26 by kleung-t         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,24 @@
 #define EASYFIND_HPP
 #include <iostream>
 #include <list>
-#include "easyfind.hpp"
+#include <algorithm>
+#include <deque>
+#include <vector>
 
 template <typename T>
-T easyfind(T a, int b)
+bool easyfind(T a, int b)
 {
-	if (a < b)
-		return (a);
+	typename T::iterator it = std::find(a.begin(), a.end(), b);
+	if (it != a.end())
+	{
+		std::cout << "Researched value has been found." << std::endl;
+		return (true);
+	}
 	else
-		return(b);
-};
+	{
+		std::cerr << "Researched value not found." << std::endl;
+		return(false);
+	}
+}
 
 #endif

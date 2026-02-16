@@ -6,7 +6,7 @@
 #    By: kleung-t <kleung-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/13 17:13:55 by kleung-t          #+#    #+#              #
-#    Updated: 2026/02/13 17:13:55 by kleung-t         ###   ########.fr        #
+#    Updated: 2026/02/16 14:41:18 by kleung-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ GG = c++
 
 GFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC =	main.cpp easyfind.cpp
+SRC =	main.cpp
 
 RST = \33[0m#reset to default
 R = \33[1;31m#red
