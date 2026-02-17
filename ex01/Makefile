@@ -6,7 +6,7 @@
 #    By: kleung-t <kleung-t@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/16 18:46:36 by kleung-t          #+#    #+#              #
-#    Updated: 2026/02/16 18:48:38 by kleung-t         ###   ########.fr        #
+#    Updated: 2026/02/17 14:47:59 by kleung-t         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ GG = c++
 
 GFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC =	main.cpp span.cpp
+SRC =	main.cpp Span.cpp
 
 RST = \33[0m#reset to default
 R = \33[1;31m#red

@@ -27,5 +27,8 @@ Available for only one declaration at a time. Serves as a placeholder for define
 
 ### EX01
 
-* ``span(unsigned int N)`` as constructor
-* ``addNumber(), shortestSpan(), longestSpan()``
+* ``span(unsigned int N)`` as constructor to determine MAX space given to the list
+* ``addNumber(), shortestSpan(), longestSpan()`` required and ``addList()`` created to generate numbers to fill up the list by random
+	* ``shortestSpan()`` will calculate the distance between each numbers and returns the shortest
+	* ``longestSpan()`` will calculate the distance between the lowest and the highest values of the list
+* still more details to add for exceptions
